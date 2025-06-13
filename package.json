@@ -1,0 +1,18 @@
+{
+  "name": "design-token-airtable-sync",
+  "version": "1.0.0",
+  "description": "Sync design tokens from local JSON files to Airtable, resolving references and supporting semantic tokens.",
+  "main": "scripts/syncDesignTokensToAirtable.js",
+  "scripts": {
+    "sync": "node scripts/syncDesignTokensToAirtable.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/design-token-airtable-sync.git"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "airtable": "^0.12.2"
+  }
+} 
